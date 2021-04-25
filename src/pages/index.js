@@ -1,16 +1,16 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/layout.js"
 
 //Components
-import HomeContent from "../components/homePage/HomeContent"
-import HomeFeatured from "../components/homePage/HomeFeatured"
-import HomeAbout from "../components/homePage/HomeAbout"
-import HomeBanner from "../components/homePage/HomeBanner"
+import HomeContent from "../components/homePage/HomeContent.js"
+import HomeFeatured from "../components/homePage/HomeFeatured.js"
+import HomeAbout from "../components/homePage/HomeAbout.js"
+import HomeBanner from "../components/homePage/HomeBanner.js"
 //Context
 import {
   useGlobalStateContext,
   useGlobalDispatchContext,
-} from "../context/globalContext"
+} from "../context/globalContext.js"
 
 const IndexPage = props => {
   const dispatch = useGlobalDispatchContext()

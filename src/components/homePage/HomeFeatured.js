@@ -3,13 +3,13 @@ import { Link } from "gatsby"
 //Framer Motion
 import { motion, useAnimation } from "framer-motion"
 // Styled Components
-import { Container, Flex } from "../../styles/globalStyles"
+import { Container, Flex } from "../../styles/globalStyles.js"
 import {
   HomeFeaturedSection,
   FeaturedVideo,
   FeaturedContent,
  
-} from "../../styles/homeStyles"
+} from "../../styles/homeStyles.js"
 // Scroll Animations
 import { useInView } from "react-intersection-observer"
 

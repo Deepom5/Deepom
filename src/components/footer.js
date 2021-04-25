@@ -5,14 +5,14 @@ import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
 
 //Styled Components
-import { Container, Flex } from "../styles/globalStyles"
-import { FooterNav, FooterContent, FooterSocial } from "../styles/footerStyles"
+import { Container, Flex } from "../styles/globalStyles.js"
+import { FooterNav, FooterContent, FooterSocial } from "../styles/footerStyles.js"
 
 //Icons
-import { Instagram, Facebook,Linkedin} from "../assets/svg/social-icons"
+import { Instagram, Facebook,Linkedin} from "../assets/svg/social-icons.js"
 
 //Custom Hooks
-import useElementPosition from "../hooks/useElementPosition"
+import useElementPosition from "../hooks/useElementPosition.js"
 
 const Footer = ({ setHamburgerPosition, onCursor }) => {
   const instagramRef = useRef(null)

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react"
 //Custom Hook
-import useWindowSize from "../../hooks/useWindowSize"
+import useWindowSize from "../../hooks/useWindowSize.js"
 //Context
-import { useGlobalStateContext } from "../../context/globalContext"
+import { useGlobalStateContext } from "../../context/globalContext.js"
 //Styled Components
 import {
   Banner,
@@ -10,7 +10,7 @@ import {
   BannerTitle,
   Canvas,
   Headline,
-} from "../../styles/homeStyles"
+} from "../../styles/homeStyles.js"
 
 const HomeBanner = ({ onCursor }) => {
   const size = useWindowSize()

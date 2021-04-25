@@ -5,16 +5,16 @@ import { useStaticQuery, graphql } from "gatsby"
 import { createGlobalStyle, ThemeProvider } from "styled-components"
 import { normalize } from "styled-normalize"
 //Custom Cursor
-import CustomCursor from "../components/customCursor"
+import CustomCursor from "../components/customCursor.js"
 //Components
-import Header from "./header"
-import Navigation from "./navigation"
-import Footer from "./footer"
+import Header from "./header.js"
+import Navigation from "./navigation.js"
+import Footer from "./footer.js"
 // Context
 import {
   useGlobalStateContext,
   useGlobalDispatchContext,
-} from "../context/globalContext"
+} from "../context/globalContext.js"
 
 const GlobalStyle = createGlobalStyle`
 ${normalize}

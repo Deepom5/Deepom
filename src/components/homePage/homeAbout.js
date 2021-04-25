@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 // Styled Components
-import { Container, Flex } from "../../styles/globalStyles"
+import { Container, Flex } from "../../styles/globalStyles.js"
 //Framer Motion
 import { motion, useAnimation } from "framer-motion"
 //Home Component
@@ -14,10 +14,10 @@ import {
   FeaturedProjects
 } from "../../styles/homeStyles"
 //Context
-import { useGlobalStateContext } from "../../context/globalContext"
+import { useGlobalStateContext } from "../../context/globalContext.js"
 //Scroll Observer
 import { useInView } from "react-intersection-observer"
-import HomeSkill from "./HomeSkill"
+import HomeSkill from "./HomeSkill.js"
 // Accordion Data
 const accordionIds = [
   {

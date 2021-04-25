@@ -1,16 +1,16 @@
 import { Link } from "gatsby"
 import React, { useEffect, useRef } from "react"
 // Styled Components
-import { Container, Flex } from "../styles/globalStyles"
-import { HeaderNav, Logo, Menu } from "../styles/headerStyles"
+import { Container, Flex } from "../styles/globalStyles.js"
+import { HeaderNav, Logo, Menu } from "../styles/headerStyles.js"
 
 //context
 import {
   useGlobalDispatchContext,
   useGlobalStateContext,
-} from "../context/globalContext"
+} from "../context/globalContext.js"
 //Custom Hook
-import useElementPosition from "../hooks/useElementPosition"
+import useElementPosition from "../hooks/useElementPosition.js"
 
 const Header = ({
   onCursor,

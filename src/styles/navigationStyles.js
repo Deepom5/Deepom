@@ -55,6 +55,8 @@ export const NavList = styled.div`
       overflow: hidden;
       @media (max-width: 768px) {
        font-size:1.2rem;
+       height:56px;
+       line-height:56px;
       }
       .link {
         color: ${props => props.theme.background};

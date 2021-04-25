@@ -3,7 +3,7 @@ import React from "react";
 
 import {
     MainNavigationBoxImage,MainNavigationBoxTitle,Wrapper
-  } from "../../styles/homeStyles"
+  } from "../../styles/homeStyles.js"
 
 
 

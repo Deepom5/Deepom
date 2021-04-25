@@ -3,8 +3,8 @@ import React, { useEffect } from "react"
 import { useInView } from "react-intersection-observer"
 import { useAnimation } from "framer-motion"
 //Styled Components
-import { Container } from "../../styles/globalStyles"
-import { Content, HomeContentSection } from "../../styles/homeStyles"
+import { Container } from "../../styles/globalStyles.js"
+import { Content, HomeContentSection } from "../../styles/homeStyles.js"
 
 const HomeContent = () => {
   const animation = useAnimation()
